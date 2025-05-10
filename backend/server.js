@@ -10,7 +10,10 @@ const app = express();
 connectDB();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin: ["https://loomage.onrender.com", "http://localhost:3000"],
+    credentials: true
+}));
 
 app.use("/api/user", userRouter);
 app.use("/api/image", imageRouter);
