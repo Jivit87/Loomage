@@ -44,3 +44,4 @@ backend/dist/
 backend/build/
 backend/tmp/
 backend/logs/
+.env
