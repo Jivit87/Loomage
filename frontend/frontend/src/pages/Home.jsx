@@ -4,7 +4,6 @@ import Steps from '../components/Steps'
 import Description from '../components/Description'
 import Testimonals from '../components/Testimonals'
 import GenerateBtn from '../components/GenerateBtn'
-import Contact from '../components/Contact'
 
 const Home = () => {
   return (
@@ -13,7 +12,6 @@ const Home = () => {
         <Steps/>
         <Description/>
         <Testimonals/>
-        <Contact></Contact>
         <GenerateBtn/>
        
     </div>
